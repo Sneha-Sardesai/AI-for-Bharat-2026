@@ -10,13 +10,13 @@ EmotionArc Conductor is an AI-driven narrative analysis and optimization system 
 
 Many creators feel something is wrong with their story’s flow but cannot pinpoint where, why, or how to fix it without rewriting everything. EmotionArc Conductor solves this by:
 
-1.Quantifying emotional intensity
+- Quantifying emotional intensity
 
-2.Correlating it with real audience engagement data
+- Correlating it with real audience engagement data
 
-3.Visualizing narrative flow as a Narrative EKG
+- Visualizing narrative flow as a Narrative EKG
 
-4.Delivering precise, timing-based surgical recommendations
+- Delivering precise, timing-based surgical recommendations
 
 This system is built for writers, screenwriters, game designers, educators, and digital content creators, with a special focus on data-driven storytelling for Indian and global audiences.
 
@@ -26,25 +26,26 @@ Studies and platform analytics consistently show that up to 60% of audiences dis
 
 Key Challenges:
 
-1.Emotional fatigue from sustained intensity.
+- Emotional fatigue from sustained intensity.
 
-2.Unearned emotional peaks.
+- Unearned emotional peaks.
 
-3.Long flat segments with no micro-tension.
+- Long flat segments with no micro-tension.
 
-4.Misalignment between creator intent and audience response.
+- Misalignment between creator intent and audience response.
 
 ## 📍Solution
 
 EmotionArc Conductor introduces a Narrative Intelligence Layer that:
 
-1.Analyzes emotional arcs across a story
+- Analyzes emotional arcs across a story
 
-2.Aligns them with real or predicted audience behavior
+- Aligns them with real or predicted audience behavior
 
-3.Detects pacing defects with mathematical precision
+- Detects pacing defects with mathematical precision
 
 ## 📍Core Concepts
+
 ### Term	Description
 Emotion Arc	Trajectory of emotional intensity across the narrative
 Narrative EKG	Visual “heartbeat” of emotional engagement
@@ -52,21 +53,17 @@ Tension Point	Significant emotional peak, valley, or transition
 Unearned Peak	High intensity without sufficient buildup
 Emotional Fatigue	Drop-off caused by prolonged intensity
 
-Content Input
-   ↓
-Content Parser
-   ↓
-Narrative Segmentation
-   ↓
-Emotion Arc Analysis
-   ↓
-Audience Engagement Correlation
-   ↓
-Tension Point Detection
-   ↓
-Optimization Engine
-   ↓
-Narrative EKG + Surgical Recommendations
+```mermaid
+flowchart TD
+    A[Content Input] --> B[Content Parser]
+    B --> C[Narrative Segmentation]
+    C --> D[Emotion Arc Analysis]
+    D --> E[Audience Engagement Correlation]
+    E --> F[Tension Point Detection]
+    F --> G[Optimization Engine]
+    G --> H[Narrative EKG + Surgical Recommendations]
+```
+
 
 ## 📍Features
 
